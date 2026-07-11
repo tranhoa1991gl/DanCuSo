@@ -1,11 +1,11 @@
 {
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
     "releaseNotes": [
-        "Phiên bản đầu tiên của phần mềm DanCuSo."
+        "Nâng cấp thêm chức năng Update Online"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.0.1/DanCuSo.1.0.0.1.zip",
-        "sha256": ""
+        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.0.2/DanCuSo.1.0.0.2.zip",
+        "sha256": "46c78387855c9f7530b093fb15a2044e1b73cb200be1ae62b3d2f8c9b7fb1f19"
     },
     "sqlScripts": []
 }
