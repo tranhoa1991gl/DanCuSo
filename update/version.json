@@ -1,0 +1,11 @@
+{
+    "version": "1.0.0.1",
+    "releaseNotes": [
+        "Phiên bản đầu tiên của phần mềm DanCuSo."
+    ],
+    "app": {
+        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.0.1/DanCuSo.1.0.0.1.zip",
+        "sha256": ""
+    },
+    "sqlScripts": []
+}
