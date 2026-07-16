@@ -1,11 +1,11 @@
 {
-    "version": "1.0.0.2",
+    "version": "1.0.0.3",
     "releaseNotes": [
-        "Nâng cấp thêm chức năng Update Online"
+        "Thêm chức năng quản lý đảng viên, xuất danh sách, xem tuổi Đảng"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.0.2/DanCuSo.1.0.0.2.zip",
-        "sha256": "46c78387855c9f7530b093fb15a2044e1b73cb200be1ae62b3d2f8c9b7fb1f19"
+        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.0.3/DanCuSo.1.0.0.3.zip",
+        "sha256": "381bf495a9cb59872223f2a0cfe46476c1891abe1a24c8009368a5760c5ab0d4"
     },
     "sqlScripts": []
 }
