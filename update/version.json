@@ -1,11 +1,11 @@
 {
-    "version": "1.0.0.4",
+    "version": "1.0.0.5",
     "releaseNotes": [
-        "Nâng cấp, tối ưu giao diện form"
+        "Sửa lỗi xóa thành viên"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.0.4/DanCuSo.1.0.0.4.zip",
-        "sha256": "302a711a40781f373b8e3f19d6a6be37d240fc1909f88148754ac0c2d756c05a"
+        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.05/DanCuSo.1.0.0.5.zip",
+        "sha256": "810b82fecf67f07e5d0afdd5f9c1a658a28d5660adc8693a977287ee25996070"
     },
     "sqlScripts": []
 }
