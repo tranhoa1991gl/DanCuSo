@@ -1,13 +1,11 @@
 {
-    "version": "1.0.0.8",
+    "version": "1.0.1.0",
 "releaseNotes": [
-  "Bổ sung Địa Chỉ Chi Tiết cho Hộ Gia Đình, tách riêng với Tổ / Khu Vực.",
-  "Cập nhật file mẫu và luồng import Excel Hộ Gia Đình + Thành Viên để nhận đúng cột Khu Vực và Địa Chỉ Chi Tiết.",
-  "Xuất Excel giữ đầy đủ CCCD và Số Điện Thoại, tránh mất số 0 đầu."
+  "Bổ sung cấu hình kết nối dữ liệu"
 ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.0.8/DanCuSo.1.0.0.8.zip",
-        "sha256": "03b02438a307b7feed598001d5301ca486a567c9f720e3aa378bbdcf92c01b19"
+        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.0/DanCuSo.1.0.1.0.zip",
+        "sha256": "a44eacc763aa23d3fb99098daff4700a2f6b6837681a3f5bc38afb559f8e7a63"
     },
     "sqlScripts": [
 
