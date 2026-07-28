@@ -1,11 +1,11 @@
 {
-    "version": "1.0.1.0",
+    "version": "1.0.1.1",
 "releaseNotes": [
-  "Bổ sung cấu hình kết nối dữ liệu"
+  "Bổ sung lựa chọn khi Export form đảng viên"
 ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.0/DanCuSo.1.0.1.0.zip",
-        "sha256": "a44eacc763aa23d3fb99098daff4700a2f6b6837681a3f5bc38afb559f8e7a63"
+        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.1/DanCuSo.1.0.1.1.zip",
+        "sha256": "74c7ac4ed413aa537f4c28b2973eff4c8d02ebee64296adea153ed83818e3aa9"
     },
     "sqlScripts": [
 
