@@ -1,11 +1,18 @@
 {
-    "version": "1.0.0.5",
+    "version": "1.0.0.7",
     "releaseNotes": [
-        "Sửa lỗi xóa thành viên"
+        "Bổ sung địa chỉ chi tiết"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.05/DanCuSo.1.0.0.5.zip",
-        "sha256": "810b82fecf67f07e5d0afdd5f9c1a658a28d5660adc8693a977287ee25996070"
+        "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.0.7/DanCuSo.1.0.0.7.zip",
+        "sha256": "f10bcfc4dfba7397fced692eabd54a2c4a8cc082a58addbe4efab302b7d59755"
     },
-    "sqlScripts": []
+    "sqlScripts": [
+
+        {
+            "migrationId": "20260728_address_detail_full_contact",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260728_address_detail_full_contact.sql",
+            "sha256": "61ea4cc0bfe17cb38c5b04c91df21a667ee55311c3d25e5024f040d1de7f4e33"
+        }
+    ]
 }
