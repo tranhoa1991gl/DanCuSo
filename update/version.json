@@ -1,17 +1,11 @@
 {
-  "version": "1.0.1.4",
+  "version": "1.0.1.5",
   "releaseNotes": [
-    "Bổ sung danh mục Đối tượng, cho phép tự thêm các diện quản lý như bảo trợ xã hội, người khuyết tật, thương binh và nạn nhân chất độc da cam.",
-    "Cho phép một nhân khẩu thuộc nhiều đối tượng quản lý và cập nhật trực tiếp trong hồ sơ nhân khẩu.",
-    "Bổ sung cột, tìm kiếm và bộ lọc Đối tượng tại màn hình Nhân khẩu.",
-    "Bổ sung lựa chọn xuất cột Đối tượng trong Excel Nhân khẩu và Chi tiết hộ gia đình.",
-    "Cải tiến màn hình cập nhật phần mềm và trạng thái tải dữ liệu.",
-    "Tối ưu vị trí nhập mật khẩu khi tài khoản đăng nhập đã được ghi nhớ.",
-    "Sửa bố cục form thêm, sửa nhân khẩu và khôi phục đầy đủ nút Lưu, Hủy."
+    "Nâng cấp hệ thống"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.4/DanCuSo.1.0.1.4.zip",
-    "sha256": "bd1aec5e97d8955fba32480367f6ea5512e5caf419d2e5712b2abf01d3663475"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.5/DanCuSo.1.0.1.5.zip",
+    "sha256": "7df044a46fbac00754cfb5997f40b7747827db7146e15ace63a6a2f085898b67"
   },
   "sqlScripts": []
 }
