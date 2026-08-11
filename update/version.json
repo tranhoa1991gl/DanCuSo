@@ -1,24 +1,17 @@
 {
-  "version": "1.0.1.3",
+  "version": "1.0.1.4",
   "releaseNotes": [
-    "Bổ sung quản lý Thường trú/Tạm trú cho hộ gia đình và nhân khẩu, tự động đồng bộ loại cư trú từ hộ xuống thành viên",
-    "Bổ sung địa chỉ thường trú hoặc nơi đến từ đối với trường hợp tạm trú",
-    "Bổ sung quản lý khách/người thân lưu trú ngắn ngày, theo dõi ngày đến, ngày về dự kiến và tình trạng quá hạn",
-    "Bổ sung lịch sử lưu trú, xác nhận ngày về thực tế và tra cứu lại các lượt lưu trú đã kết thúc",
-    "Bổ sung danh mục Mức định danh gồm Chưa định danh, Mức 1, Mức 2 và cho phép tự bổ sung mức mới",
-    "Bổ sung xuất Excel tại chi tiết hộ gia đình với chức năng lựa chọn cột",
-    "Hiển thị đầy đủ thông tin nhân khẩu trong chi tiết hộ và hỗ trợ mở hồ sơ hộ từ lịch sử lưu trú",
-    "Cải thiện giao diện đăng nhập, đồng bộ giao diện các biểu mẫu và sửa một số lỗi thao tác thành viên"
+    "Bổ sung danh mục Đối tượng, cho phép tự thêm các diện quản lý như bảo trợ xã hội, người khuyết tật, thương binh và nạn nhân chất độc da cam.",
+    "Cho phép một nhân khẩu thuộc nhiều đối tượng quản lý và cập nhật trực tiếp trong hồ sơ nhân khẩu.",
+    "Bổ sung cột, tìm kiếm và bộ lọc Đối tượng tại màn hình Nhân khẩu.",
+    "Bổ sung lựa chọn xuất cột Đối tượng trong Excel Nhân khẩu và Chi tiết hộ gia đình.",
+    "Cải tiến màn hình cập nhật phần mềm và trạng thái tải dữ liệu.",
+    "Tối ưu vị trí nhập mật khẩu khi tài khoản đăng nhập đã được ghi nhớ.",
+    "Sửa bố cục form thêm, sửa nhân khẩu và khôi phục đầy đủ nút Lưu, Hủy."
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.3/DanCuSo.1.0.1.3.zip",
-    "sha256": "22bd6371830e6e4072359d13c179c70352494c7cfe3039e9d159bac50eba52fc"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.4/DanCuSo.1.0.1.4.zip",
+    "sha256": "bd1aec5e97d8955fba32480367f6ea5512e5caf419d2e5712b2abf01d3663475"
   },
-  "sqlScripts": [
-    {
-      "migrationId": "20260728_address_detail_full_contact",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260728_address_detail_full_contact.sql",
-      "sha256": "61ea4cc0bfe17cb38c5b04c91df21a667ee55311c3d25e5024f040d1de7f4e33"
-    }
-  ]
+  "sqlScripts": []
 }
