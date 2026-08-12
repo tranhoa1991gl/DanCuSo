@@ -1,11 +1,39 @@
 {
-  "version": "1.0.1.5",
+  "version": "1.0.1.6",
   "releaseNotes": [
-    "Nâng cấp hệ thống"
+    "Tối ưu tốc độ load",
+    "Nâng cấp hồ sơ cư trú dành cho CAKV",
+    "Nâng cấp giao diện Main"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.5/DanCuSo.1.0.1.5.zip",
-    "sha256": "7df044a46fbac00754cfb5997f40b7747827db7146e15ace63a6a2f085898b67"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.6/DanCuSo.1.0.1.6.zip",
+    "sha256": "6ca140e375136238e429caf1f4ea5302d662774d7e2b2fc0b9dc0470bb57c7ca"
   },
-  "sqlScripts": []
+  "sqlScripts": [
+    {
+      "migrationId": "20260728_address_detail_full_contact",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/update/sql/20260728_address_detail_full_contact.sql",
+      "sha256": "61EA4CC0BFE17CB38C5B04C91DF21A667EE55311C3D25E5024F040D1DE7F4E33"
+    },
+    {
+      "migrationId": "20260811_residency_identity_guest_objects",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260811_residency_identity_guest_objects.sql",
+      "sha256": "91805CC31884C0731AB3EDF470CDFC69717B6C7C21C3FADED4201C541B70ADBC"
+    },
+    {
+      "migrationId": "20260812_add_que_quan_thanh_vien",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260812_add_que_quan_thanh_vien.sql",
+      "sha256": "E64AD650556B4AD327B496A30396CBF87F9AD491788917F65138477F0FC06170"
+    },
+    {
+      "migrationId": "20260812_hoso_luu_tru_cakv",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260812_hoso_luu_tru_cakv.sql",
+      "sha256": "02F0F1550642D0635F57CFFECEE44370E09277CA7FEC7197CCA42BD8673F955C"
+    },
+    {
+      "migrationId": "20260812_doi_tuong_theo_doi_cakv",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260812_doi_tuong_theo_doi_cakv.sql",
+      "sha256": "EEAAC351F4AF4564B9BCCB9CD6F98706131DB3B14A460A90B2E4430CC8163060"
+    }
+  ]
 }
