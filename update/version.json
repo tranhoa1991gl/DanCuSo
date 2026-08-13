@@ -1,13 +1,12 @@
 {
-  "version": "1.0.1.6",
+  "version": "1.0.1.7",
   "releaseNotes": [
-    "Tối ưu tốc độ load",
-    "Nâng cấp hồ sơ cư trú dành cho CAKV",
-    "Nâng cấp giao diện Main"
+    "Nâng cấp giao diện",
+    "Nâng cấp hồ sơ cư trú dành cho CAKV"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.6/DanCuSo.1.0.1.6.zip",
-    "sha256": "6ca140e375136238e429caf1f4ea5302d662774d7e2b2fc0b9dc0470bb57c7ca"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.7/DanCuSo.1.0.1.7.zip",
+    "sha256": "b812cded81321efea45e27b7a94ba56bf543972366c0fc6b4bb3993de3d889c1"
   },
   "sqlScripts": [
     {
