@@ -1,38 +1,17 @@
 {
-  "version": "1.0.1.7",
+  "version": "1.0.1.8",
   "releaseNotes": [
-    "Nâng cấp giao diện",
-    "Nâng cấp hồ sơ cư trú dành cho CAKV"
+    "Nâng cấp hệ thống: Liên quan đến lưu trú",
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.7/DanCuSo.1.0.1.7.zip",
-    "sha256": "b812cded81321efea45e27b7a94ba56bf543972366c0fc6b4bb3993de3d889c1"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.8/DanCuSo.1.0.1.8.zip",
+    "sha256": "9d0d25dfb4f05528eee70f6bbee20c45db5271a9c2730a00e68b91e8f8461377"
   },
   "sqlScripts": [
     {
-      "migrationId": "20260728_address_detail_full_contact",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/update/sql/20260728_address_detail_full_contact.sql",
-      "sha256": "61EA4CC0BFE17CB38C5B04C91DF21A667EE55311C3D25E5024F040D1DE7F4E33"
-    },
-    {
-      "migrationId": "20260811_residency_identity_guest_objects",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260811_residency_identity_guest_objects.sql",
-      "sha256": "91805CC31884C0731AB3EDF470CDFC69717B6C7C21C3FADED4201C541B70ADBC"
-    },
-    {
-      "migrationId": "20260812_add_que_quan_thanh_vien",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260812_add_que_quan_thanh_vien.sql",
-      "sha256": "E64AD650556B4AD327B496A30396CBF87F9AD491788917F65138477F0FC06170"
-    },
-    {
-      "migrationId": "20260812_hoso_luu_tru_cakv",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260812_hoso_luu_tru_cakv.sql",
-      "sha256": "02F0F1550642D0635F57CFFECEE44370E09277CA7FEC7197CCA42BD8673F955C"
-    },
-    {
-      "migrationId": "20260812_doi_tuong_theo_doi_cakv",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260812_doi_tuong_theo_doi_cakv.sql",
-      "sha256": "EEAAC351F4AF4564B9BCCB9CD6F98706131DB3B14A460A90B2E4430CC8163060"
+      "migrationId": "20260823_luu_tru_history_integrity",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260823_luu_tru_history_integrity.sql",
+      "sha256": "d45c9ae034eb4d305d21e67044e7a5fa75d0b960ff2c5836feac93568c5be7e9"
     }
   ]
 }
