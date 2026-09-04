@@ -1,17 +1,34 @@
 {
-  "version": "1.0.1.8",
+  "version": "1.0.1.9",
   "releaseNotes": [
-    "Nâng cấp hệ thống: Liên quan đến lưu trú"
+    "Sửa cơ chế cập nhật SQL độc lập với phiên bản phần mềm",
+    "Tăng tính toàn vẹn dữ liệu lưu trú và xóa hộ gia đình",
+    "Sửa tính tuổi và đồng bộ dữ liệu khi sử dụng qua mạng LAN"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.8/DanCuSo.1.0.1.8.zip",
-    "sha256": "9d0d25dfb4f05528eee70f6bbee20c45db5271a9c2730a00e68b91e8f8461377"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.9/DanCuSo.1.0.1.9.zip",
+    "sha256": "1977cf714286eefaf15faa8d9f5e23102ad431fed781e670d79da1da68fd0b2f"
   },
   "sqlScripts": [
     {
-      "migrationId": "20260823_luu_tru_history_integrity",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260823_luu_tru_history_integrity.sql",
-      "sha256": "d45c9ae034eb4d305d21e67044e7a5fa75d0b960ff2c5836feac93568c5be7e9"
+      "migrationId": "20260831_luu_tru_history_integrity",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260831_luu_tru_history_integrity.sql",
+      "sha256": "D45C9AE034EB4D305D21E67044E7A5FA75D0B960FF2C5836FEAC93568C5BE7E9"
+    },
+    {
+      "migrationId": "20260831_luu_tru_integrity_hardening",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260831_luu_tru_integrity_hardening.sql",
+      "sha256": "74FBFD64F752C42063637354A25856D8E17EE43D426F6F7FB1114E7A6CF99CFB"
+    },
+    {
+      "migrationId": "20260831_luu_tru_advanced_controls",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260831_luu_tru_advanced_controls.sql",
+      "sha256": "2C07D9B7DF218965C68002F7D25EFBB5F25CDA1061B801298A908E7DA9225FAB"
+    },
+    {
+      "migrationId": "20260904_dancuso_integrity_fix",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260904_dancuso_integrity_fix.sql",
+      "sha256": "A03F6EE9E269D8DD9291A51D1730F0D7DB5932A21B472D734DABB81B6AB9D8CD"
     }
   ]
 }
