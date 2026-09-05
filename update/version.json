@@ -1,13 +1,11 @@
 {
-  "version": "1.0.1.9",
+  "version": "1.0.2.0",
   "releaseNotes": [
-    "Sửa cơ chế cập nhật SQL độc lập với phiên bản phần mềm",
-    "Tăng tính toàn vẹn dữ liệu lưu trú và xóa hộ gia đình",
-    "Sửa tính tuổi và đồng bộ dữ liệu khi sử dụng qua mạng LAN"
+    "Nâng cấp, làm đẹp giao diện"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.1.9/DanCuSo.1.0.1.9.zip",
-    "sha256": "1977cf714286eefaf15faa8d9f5e23102ad431fed781e670d79da1da68fd0b2f"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.0/DanCuSo.1.0.2.0.zip",
+    "sha256": "54f27f345bc03aae329e5a4bf33ba10a5c698605b61beb7b197af8c918840f10"
   },
   "sqlScripts": [
     {
