@@ -1,11 +1,11 @@
 {
-  "version": "1.0.2.1",
+  "version": "1.0.2.2",
   "releaseNotes": [
-    "Nâng cấp, tôi ưu giao diện trên thiết bị có màn hình nhỏ"
+    "Nâng cấp, tôi ưu giao diện trên thiết bị có màn hình nhỏ", "Bản vá 1.0.2.1 trước đó"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.1/DanCuSo.1.0.2.1.zip",
-    "sha256": "ee3e2a2bef2b346328ce9d0b6fd9d310ee819d43147c175a14f6c9c6681390be"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.2/DanCuSo.1.0.2.2.zip",
+    "sha256": "745fa7acc4ea55d9fcac7c6e9f80e0f02ec2968c1f5b4f3d64b1c11fb51d8ea3"
   },
   "sqlScripts": [
     {
