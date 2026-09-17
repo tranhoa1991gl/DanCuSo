@@ -1,11 +1,13 @@
 {
-  "version": "1.0.2.3",
+  "version": "1.0.2.4",
   "releaseNotes": [
-    "Nâng cấp, tối ưu giao diện"
+    "Thêm mục báo cáo - Danh sách đến tuổi nghĩa vụ quân sự",
+    "Loại bỏ người đã mất, người lưu trú ra khỏi báo cáo thống kê",
+    "Fix 1 vài lặt lặt khác"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.3/DanCuSo.1.0.2.3.zip",
-    "sha256": "8b2234e9b492358e7961ecbd7636d76fec12e62133548e8b03e9c77c4982fe50"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.4/DanCuSo.1.0.2.4.zip",
+    "sha256": "b089c9b364793d9ad9d3a30c45d5921af71693405731267d0c3acdcf8a4b8212"
   },
   "sqlScripts": [
     {
@@ -27,6 +29,16 @@
       "migrationId": "20260904_dancuso_integrity_fix",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260904_dancuso_integrity_fix.sql",
       "sha256": "A03F6EE9E269D8DD9291A51D1730F0D7DB5932A21B472D734DABB81B6AB9D8CD"
+    },
+    {
+      "migrationId": "20260913_fix_thong_ke_dan_so_online",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260913_fix_thong_ke_dan_so_online.sql",
+      "sha256": "602d166841bda99a9d744e96b9b62596cc533c53eda2465f37d16f1f9396d509"
+    },
+    {
+      "migrationId": "Fix_NhatKy_TraCuu_online",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/Fix_NhatKy_TraCuu_online.sql",
+      "sha256": "0b1a5a91ee2a22b3a5559cee94f61878a1e5306145644b1b821ecb13331e20a8"
     }
   ]
 }
