@@ -16,9 +16,13 @@ BEGIN
         nk.IdHoGiaDinh,
         nk.IdThanhVien,
         CASE 
-            WHEN nk.PhanLoai = N'Cong dong' THEN N'Toan thon/xa'
-            WHEN nk.PhanLoai = N'Ho gia dinh' THEN N'Ho: ' + ISNULL(hg.TenChuHo, N'Khong ro')
-            WHEN nk.PhanLoai = N'Ca nhan' THEN N'Ong/Ba: ' + ISNULL(tv.HoVaTen, N'Khong ro')
+            WHEN nk.PhanLoai IN (N'Cộng đồng', N'Cong dong') THEN N'Toàn thôn/xã'
+            WHEN nk.PhanLoai IN (N'Hộ gia đình', N'Ho gia dinh') THEN
+                CASE WHEN nk.IdHoGiaDinh IS NULL THEN N'Chưa chọn hộ gia đình'
+                     ELSE N'Hộ: ' + COALESCE(NULLIF(hg.TenChuHo, N''), N'Không rõ') END
+            WHEN nk.PhanLoai IN (N'Cá nhân', N'Ca nhan') THEN
+                CASE WHEN nk.IdThanhVien IS NULL THEN N'Chưa chọn cá nhân'
+                     ELSE N'Ông/Bà: ' + COALESCE(NULLIF(tv.HoVaTen, N''), N'Không rõ') END
             ELSE N''
         END AS DoiTuongLienQuan
     FROM dbo.NhatKyHoatDong nk
