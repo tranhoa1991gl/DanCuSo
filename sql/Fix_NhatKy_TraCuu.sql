@@ -1,5 +1,5 @@
-﻿-- Chay script nay tren SQL Server Management Studio (SSMS)
--- De cap nhat proc NhatKy_TraCuu tra them 2 cot IdHoGiaDinh, IdThanhVien
+-- UTF-8 WITHOUT BOM: compatible with the existing online updater.
+-- Keep ALTER PROCEDURE first in this batch (comments are allowed).
 
 ALTER PROCEDURE [dbo].[NhatKy_TraCuu]
     @TuNgay DATETIME,
