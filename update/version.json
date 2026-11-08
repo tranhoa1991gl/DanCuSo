@@ -1,47 +1,27 @@
 {
-  "version": "1.0.2.5",
+  "version": "1.0.2.6",
   "releaseNotes": [
-    "Cập nhật phần mềm, fix form Nhật ký công tác"
+    "Bổ sung thu thuế nhà đất, thuế ruộng"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.5/DanCuSo.1.0.2.5.zip",
-    "sha256": "5221329512edad179b7b0b8f2f0b495a98231f8843ba4ce8c897a6aaa69aca3a"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.6/DanCuSo.1.0.2.6.rar",
+    "sha256": "d8f3af990f1126971e4b25fb5ccbba3a3aaefe6da5b0bfc2156da1d131bf1309"
   },
   "sqlScripts": [
     {
-      "migrationId": "20260831_luu_tru_history_integrity",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260831_luu_tru_history_integrity.sql",
-      "sha256": "D45C9AE034EB4D305D21E67044E7A5FA75D0B960FF2C5836FEAC93568C5BE7E9"
+      "migrationId": "20261007_thue_nha_o_thue_ruong",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20261007_thue_nha_o_thue_ruong.sql",
+      "sha256": "8c32c02d39611ac1a5d26d0d8d28865ee3bcffc33a66f7f0f4366612da2b1695"
     },
     {
-      "migrationId": "20260831_luu_tru_integrity_hardening",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260831_luu_tru_integrity_hardening.sql",
-      "sha256": "74FBFD64F752C42063637354A25856D8E17EE43D426F6F7FB1114E7A6CF99CFB"
+      "migrationId": "20261012_thue_co_dinh_theo_ho",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20261012_thue_co_dinh_theo_ho.sql",
+      "sha256": "7ffb927092ff04f686bf03eb29a871d1d90b66d86e44df2768bd6fb3c95e10c4"
     },
     {
-      "migrationId": "20260831_luu_tru_advanced_controls",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260831_luu_tru_advanced_controls.sql",
-      "sha256": "2C07D9B7DF218965C68002F7D25EFBB5F25CDA1061B801298A908E7DA9225FAB"
-    },
-    {
-      "migrationId": "20260904_dancuso_integrity_fix",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260904_dancuso_integrity_fix.sql",
-      "sha256": "A03F6EE9E269D8DD9291A51D1730F0D7DB5932A21B472D734DABB81B6AB9D8CD"
-    },
-    {
-      "migrationId": "20260913_fix_thong_ke_dan_so_online",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20260913_fix_thong_ke_dan_so_online.sql",
-      "sha256": "602d166841bda99a9d744e96b9b62596cc533c53eda2465f37d16f1f9396d509"
-    },
-    {
-      "migrationId": "Fix_NhatKy_TraCuu_online",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/Fix_NhatKy_TraCuu_online.sql",
-      "sha256": "0b1a5a91ee2a22b3a5559cee94f61878a1e5306145644b1b821ecb13331e20a8"
-    },
-    {
-      "migrationId": "Fix_NhatKy_TraCuu",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/Fix_NhatKy_TraCuu.sql",
-      "sha256": "8E2015BF37122180F0AA955D5483D14FDBBDC22512EC8F5FB03F1FFC35919F4F"
+      "migrationId": "20261013_thue_loai_tru_ho",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/DanCuSo/main/sql/20261013_thue_loai_tru_ho.sql",
+      "sha256": "ac69e0bd7794bc6552f1bc7c37bd857254c1aaf9521773054a06301467d1c2f4"
     }
   ]
 }
