@@ -4,8 +4,8 @@
     "Bổ sung thu thuế nhà đất, thuế ruộng"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.6/DanCuSo.1.0.2.6.rar",
-    "sha256": "d8f3af990f1126971e4b25fb5ccbba3a3aaefe6da5b0bfc2156da1d131bf1309"
+    "url": "https://github.com/tranhoa1991gl/DanCuSo/releases/download/v1.0.2.6/DanCuSo.1.0.2.6.zip",
+    "sha256": "47752864050a04cd15ced825b6c01fc2a5f9c35593cea71be93d557fbde79248"
   },
   "sqlScripts": [
     {
